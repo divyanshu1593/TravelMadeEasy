@@ -1,0 +1,178 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+#navbar{
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    background-color: black;
+}
+
+#main{
+    position: absolute;
+    height: 90%;
+    width: 100%;
+    top: 10%;
+}
+
+.navbar_btn{
+    position: absolute;
+    height: 100%;
+    width: 10%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 1.5em;
+    font-weight: bold;
+    border: none;
+}
+
+.navbar_btn:hover{
+    color: black;
+    background-color: white;
+}
+
+#logout_btn{
+    right: 0%;
+}
+
+#hotel_btn{
+    right: 10%;
+}
+
+#welcome{
+    position: absolute;
+    height: 20%;
+    width: 80%;
+    text-align: center;
+    left: 10%;
+    top: 40%;
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+#hotel_heading{
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bolder
+}
+
+#vehicle_heading{
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bolder
+}
+
+#hotel_form{
+    position: absolute;
+    top: 10%;
+    width: 60%;
+    height: 90%;
+    left: 20%;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#vehicle_form{
+    position: absolute;
+    top: 10%;
+    width: 60%;
+    height: 90%;
+    left: 20%;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#hotel_form_submit{
+    position: relative;
+    height: 5vh;
+    width: 20%;
+    left: 40%;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#vehicle_form_submit{
+    position: relative;
+    height: 5vh;
+    width: 20%;
+    left: 40%;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#hotel_form_submit:hover{
+    box-shadow: 0px 0px 10px black;
+}
+
+#vehicle_form_submit:hover{
+    box-shadow: 0px 0px 10px black;
+}
+
+#hotel_table{
+    position: absolute;
+    top: 10%;
+}
+
+#vehicle_table{
+    position: absolute;
+    top: 20%;
+}
+
+.hotel_inps{
+    font-size: 0.8em;
+}
+
+.vehicle_inps{
+    font-size: 0.8em;
+}
+
+#hotel_container{
+    background-color: rgb(219, 218, 218);
+    height: 100%;
+    width: 100%;
+}
+
+#vehicle_container{
+    background-color: rgb(219, 218, 218);
+    height: 100%;
+    width: 100%;
+}
+
+#vehicle_btn{
+    right: 20%;
+}
+
+#bgbg{
+    background-image: url('bgbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#aboutus{
+    right: 30%;
+}
+
+#aboutus_para{
+    margin: 2%;
+    font-size: 1.5em;
+}
+
+#aboutus_table{
+    font-size: 2em;
+}

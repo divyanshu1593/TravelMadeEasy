@@ -1,0 +1,285 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+#navbar{
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    background-color: black;
+}
+
+#main{
+    position: absolute;
+    height: 90%;
+    width: 100%;
+    top: 10%;
+}
+
+.navbar_btn{
+    position: absolute;
+    height: 100%;
+    width: 10%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 1.5em;
+    font-weight: bold;
+    border: none;
+}
+
+.navbar_btn:hover{
+    color: black;
+    background-color: white;
+}
+
+#logout_btn{
+    right: 0%;
+}
+
+#hotel_btn{
+    right: 10%;
+}
+
+#vehicle_btn{
+    right: 20%;
+}
+
+#welcome{
+    position: absolute;
+    height: 20%;
+    width: 80%;
+    text-align: center;
+    left: 10%;
+    top: 40%;
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+.hotel_box{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    left: 10%;
+    border: 3px solid black;
+    box-shadow: 5px 5px 15px black;
+}
+
+#hotel_image{
+    position: absolute;
+    height: 40%;
+    width: 30%;
+    top: 5%;
+    left: 5%;
+}
+
+#hotel_addr{
+    position: absolute;
+    height: 25%;
+    width: 60%;
+    top: 65%;
+    left: 37%;
+    overflow: scroll;
+    font-size: 1.5em;
+}
+
+#hotel_name{
+    position: absolute;
+    height: 10%;
+    width: 60%;
+    left: 37%;
+    top: 5%;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#hotel_desc{
+    position: absolute;
+    height: 25%;
+    width: 60%;
+    overflow: scroll;
+    top: 20%;
+    left: 37%;
+    font-size: 1.5em;
+}
+
+#hotel_refund{
+    position: absolute;
+    height: 10%;
+    width: 60%;
+    top: 50%;
+    left: 37%;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#hotel_price{
+    position: absolute;
+    height: 10%;
+    width: 30%;
+    top: 50%;
+    left: 5%;
+    font-size: 2em;
+}
+
+#hotel_agent{
+    position: absolute;
+    height: 10%;
+    width: 30%;
+    top: 65%;
+    left: 5%;
+    font-size: 2em;
+}
+
+#hotel_book_btn{
+    position: absolute;
+    height: 10%;
+    width: 30%;
+    top: 80%;
+    left: 5%;
+}
+
+.hotel_img{
+    height: 100%;
+    width: 100%;
+}
+
+.hotel_refund_green{
+    color: green;
+}
+
+.hotel_refund_red{
+    color: red;
+}
+
+.hotel_booking_btn{
+    border: none;
+    background-color: green;
+    color: white;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.vehicle_booking_btn{
+    border: none;
+    background-color: green;
+    color: white;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.hotel_cancle_btn{
+    border: none;
+    background-color: red;
+    color: white;
+    height: 100%;
+    width: 100%;
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.vehicle_cancle_btn{
+    border: none;
+    background-color: red;
+    color: white;
+    height: 100%;
+    width: 100%;
+    font-size: 2em;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#vehicle_image{
+    position: absolute;
+    height: 60%;
+    width: 55%;
+    top: 5%;
+    left: 5%;
+
+}
+
+#vehicle_company{
+    position: absolute;
+    height: 15%;
+    width: 30%;
+    top: 5%;
+    right: 5%;
+    font-size: 2em;
+}
+
+#vehicle_type{
+    position: absolute;
+    height: 15%;
+    width: 30%;
+    top: 30%;
+    right: 5%;
+    font-size: 2em;
+}
+
+#vehicle_agent{
+    position: absolute;
+    height: 15%;
+    width: 30%;
+    top: 55%;
+    right: 5%;
+    font-size: 2em;
+}
+
+#vehicle_book_btn{
+    position: absolute;
+    height: 15%;
+    width: 30%;
+    top: 80%;
+    right: 5%;
+}
+
+#vehicle_number{
+    position: absolute;
+    height: 10%;
+    width: 55%;
+    top: 70%;
+    left: 5%;
+    font-size: 2em;
+}
+
+#vehicle_rent{
+    position: absolute;
+    height: 10%;
+    width: 55%;
+    top: 85%;
+    left: 5%;
+    font-size: 2em;
+}
+
+.vehicle_img{
+    height: 100%;
+    width: 100%;
+}
+
+#bgbg{
+    background-image: url('bgbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#aboutus{
+    right: 30%;
+}
+
+#aboutus_para{
+    margin: 2%;
+    font-size: 1.5em;
+}
+
+#aboutus_table{
+    font-size: 2em;
+}

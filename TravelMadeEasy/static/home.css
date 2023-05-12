@@ -1,0 +1,39 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url('home_page_bg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#name{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    right: 25%;
+    font-size: 5em;
+    font-weight: bolder;
+}
+
+#btn{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    right: 40%;
+}
+
+#start{
+    font-size: 2.5em;
+    font-weight: 900;
+    width: 15vw;
+    border: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+#start:hover{
+    color: black;
+    border-color: black;
+}

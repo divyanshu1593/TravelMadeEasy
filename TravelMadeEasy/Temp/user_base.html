@@ -1,0 +1,33 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Made Easy</title>
+    <link rel="stylesheet" href="{% static 'user_base.css' %}">
+</head>
+<body>
+    <div id="navbar">
+        <form action="home">
+            <input type="submit" value="logout" id="logout_btn" class="navbar_btn">
+        </form>
+        <form action="user_hotel">
+            <input type="submit" value="hotels" id="hotel_btn" class="navbar_btn">
+        </form>
+        <form action="user_vehicle">
+            <input type="submit" value="vehicles" id="vehicle_btn" class="navbar_btn">
+        </form>
+        <form action="aboutusUser">
+            <input type="submit" value="about us" id="aboutus" class="navbar_btn">
+        </form>
+    </div>
+    <div id="main">
+        {% block content %}
+
+        {% endblock %}
+    </div>
+</body>
+</html>

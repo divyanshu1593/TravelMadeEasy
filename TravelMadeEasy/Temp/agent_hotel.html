@@ -1,0 +1,46 @@
+{% extends 'agent_base.html' %}
+
+{% block content %}
+
+    <div id="hotel_heading">
+        Add A Hotel
+    </div>
+
+    <div id="hotel_container">
+        <div id="hotel_form">
+            <form action="agent_hotel_handle" method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                <table id="hotel_table">
+                    <tr>
+                        <td>Name of the Hotel:</td>
+                        <td><input type="text" placeholder="Ex. Honest" name="name" class="hotel_inps"></td>
+                    </tr>
+                    <tr>
+                        <td>Address:</td>
+                        <td><textarea placeholder="Ex. near bus stand, modasa" name="address" class="hotel_inps"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Upload an image:</td>
+                        <td><input type="file" name="image" class="hotel_inps"></td>
+                    </tr>
+                    <tr>
+                        <td>Is it refundable?</td>
+                        <td>Yes<input type="radio" name="refund" value="Yes"> No<input type="radio" name="refund" value="No"></td>
+                    </tr>
+                    <tr>
+                        <td>Average price per persion:</td>
+                        <td><input type="number" placeholder="Ex. 2000" name="price" class="hotel_inps"></td>
+                    </tr>
+                    <tr>
+                        <td>Description:</td>
+                        <td><textarea placeholder="Ex. This is a nice hotel!" name="description" class="hotel_inps"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="submit" id="hotel_form_submit"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+    {{pop_up|safe}}
+{% endblock %}

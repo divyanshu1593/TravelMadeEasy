@@ -1,0 +1,26 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="{% static 'login.css' %}">
+</head>
+<body>
+    <div id="user_login_box">
+        <img src="{% static 'user_logo.png' %}" alt="user" id="user_logo">
+        <form action="user_login">
+            <input type="submit" value="User Login" id="user_login_btn">
+        </form>
+    </div>
+    <div id="agent_login_box">
+        <img src="{% static 'agent_logo.png' %}" alt="agent" id="agent_logo">
+        <form action="agent_login">
+            <input type="submit" value="Agent Login" id="agent_login_btn">
+        </form>
+    </div>
+</body>
+</html>

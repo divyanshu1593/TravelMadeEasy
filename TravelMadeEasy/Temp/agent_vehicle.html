@@ -1,0 +1,41 @@
+{% extends 'agent_base.html' %}
+
+{% block content %}
+    {{pop_up|safe}}
+    <div id="vehicle_heading">
+        Add A Vehicle
+    </div>
+
+    <div id="vehicle_container">
+        <div id="vehicle_form">
+            <form action="agent_vehicle_handle" method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                <table id="vehicle_table">
+                    <tr>
+                        <td>Type of the Vehicle:</td>
+                        <td><input type="text" placeholder="Ex. Car" name="type" class="vehicle_inps"></td>
+                    </tr>
+                    <tr>
+                        <td>Upload Image</td>
+                        <td><input type="file" name="image" class="vehicle_inps"></td>
+                    </tr>
+                    <tr>
+                        <td>Vehicle Number:</td>
+                        <td><input type="text" placeholder="Ex. GJ25AU1436" name="number" class="vehicle_inps"></td>
+                    </tr>
+                    <tr>
+                        <td>Rent:</td>
+                        <td><input type="number" placeholder="Ex. 5000" name="rent" class="vehicle_inps"></td>
+                    </tr>
+                    <tr>
+                        <td>Vehicle Company:</td>
+                        <td><input type="text" placeholder="Ex. Toyota" name="company" class="vehicle_inps"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="submit" id="vehicle_form_submit"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+{% endblock %}
